@@ -1,40 +1,29 @@
-
-# Node.js
+# Dependencies
 node_modules/
+
+# Build output
+dist/
 
 # Environment variables
 .env
-.env.local
-.env.development
-.env.production
+.env.*
+!.env.example
 
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
-yarn-debug.log*
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Build
-dist/
-build/
-
-# IDE
-.vscode/
+# Editor
+.vscode/*
+!.vscode/extensions.json
 .idea/
 
-# Operating system
+# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
+Desktop.ini
 
 # Temporary files
-tmp/
-temp/
-
-# Coverage
-coverage/
+*.tmp
+*.temp
